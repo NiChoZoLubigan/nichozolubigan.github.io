@@ -1,0 +1,335 @@
+@font-face {
+    src: url(fonts/mdust.woff);
+    font-family: mdust;
+}
+
+/* counter */
+
+#counter{
+    font-family: mdust;
+}
+#cl{
+    font-size: 10em;
+    text-align: center;
+    display: block;
+}
+#btnlocale{
+    text-align: center;
+}
+.btn{
+    background-color: gray;
+    padding: 5px 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.btn:hover{
+    background-color: white;
+}
+#rtn{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    width: 200px;
+    border: 1px outset;
+}
+.btnrt{
+    transition: background-color 1s;
+    transition: border-color 1s;
+}
+
+.btnrt:hover{
+    animation-name: glow2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#btnrt{
+    color: #8b008b;
+    text-decoration: none;
+}
+#btnrt:hover{
+    color: black;
+}
+
+/* ??? */
+
+#bodid {
+    background-color: gray;
+    margin: 10px;
+}
+#n1 {
+    color: orange;
+}
+#n2 {
+    color: purple;
+}
+#n3 {
+    color: blue;
+}
+#n4 {
+    background-color: lightgray;
+    color: black;
+    border: 3px solid black;
+    font-family: "Comic Sans MS";
+    font-size: 1em;
+}
+#boxim {
+    width: 300px;
+    height: 300px;
+    float: center;
+    box-shadow: 3px 3px 0px;
+    margin: auto;
+}
+#bx1 {
+    background-color: #ff00ff;
+    margin-left: auto;
+}
+#bx2 {
+    background-color: #00ff00;
+    margin: auto;
+}
+#bd0 {
+    background-image: url(weeb-games-thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#we {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    visibility: hidden;
+}
+#con {
+    border: 3px solid white;
+}
+#con + p{
+    background-color: red;
+}
+a:link {
+    color: black;
+}
+/* a:hover {
+    color: gray;
+    font-size: 1.1em;
+} */
+/* a:active {
+    color: white;
+    font-size: 1.2em;
+} */
+span {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.boxen {
+    border: 5px outset;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+.od {
+    text-align: center;
+    width: 555px;
+    height: 50px;
+    margin: auto;
+    border: 5px outset white;
+    background-color: white;
+    font-family: mdust;
+    font-size: 2.5em;
+    color: purple;
+    text-shadow: 0px 3px 0px black;
+}
+.en {
+    color: red;
+}
+.-top {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin: 0;
+}
+/* texts */
+
+#ia {
+    font-family: Arial;
+    text-align: center;
+}
+
+/* about links */
+
+.-ta {
+    margin: 20px;
+    background-color: white;
+    border: 2px outset white;
+    text-align: center;
+}
+.-ta:hover {
+    background-color: green;
+}
+
+/* about navs */
+
+.navs ul{
+    font-family: mdust;
+    list-style-type: none;
+    overflow: hidden;
+}
+.navs a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.navs a:hover{
+    background-color: gray;
+}
+.navs li{
+    float: left;
+}
+
+/* about main */
+
+body {
+    margin: 0px;
+}
+
+/* universal */
+main {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    background-color: white;
+    display: flow-root;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* about foot */
+
+.-fs {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+/* ts3 */
+
+.du {
+    display: inline-block;
+}
+
+.du button {
+    font-family: mdust;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.du a {
+    font-family: mdust;
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+.du .content {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 100px;
+    box-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.8);
+}
+.du:hover .content{
+    display: block;
+}
+.du:hover button{
+    background-color: gray;
+}
+.du a:hover{
+    background-color: slategray;
+}
+
+/* pages */
+
+#o1 h2:hover{
+    animation-name: glow;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+/* main index */
+
+/* body, navdex and bumps */
+
+#o1 {
+    background-color: #8b008b;
+    text-align: center;
+    padding: 15px;
+}
+#o1 h2{
+    margin: auto;
+    width: 430px;
+    height: 53px;
+    border: 2px solid black;
+    background-color: white;
+}
+#o1 img{
+    width: 85%;
+}
+#o2 {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    background-color: #4b0076;
+    height: 50px;
+}
+#o2 ul{
+    transform: translateY(-10px);
+    font-family: mdust;
+    list-style-type: none;
+    overflow: hidden;
+}
+#o2 a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+#o2 a:hover {
+    background-color: black;
+    animation-name: colorChange;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+#o2 li{
+    float: left;
+}
+
+/* index main */
+
+
+/* anims */
+
+@keyframes glow2{
+    50%{box-shadow: 0px 0px 50px black;}
+}
+
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px yellow;}
+}
+@keyframes fade{
+    50%{opacity: 0}
+}
+@keyframes colorChange{
+    100%{background-color: #000000}
+    50%{background-color: #808080}
+}
+
+/*  Hi my name is Ebony Dark'ness Dementia Raven Way and I have long ebony black hair (that's how I got my name) with purple streaks and red tips that reaches my mid-back and icy blue eyes like limpid tears and a lot of people tell me I look like Amy Lee (AN: if u don't know who she is get da hell out of here!). I'm not related to Gerard Way but I wish I was because he's a major fucking hottie. I'm a vampire but my teeth are straight and white. I have pale white skin. I'm also a witch, and I go to a magic school called Hogwarts in England where I'm in the seventh year (I'm seventeen). I'm a goth (in case you couldn't tell) and I wear mostly black. I love Hot Topic and I buy all my clothes from there. For example today I was wearing a black corset with matching lace around it and a black leather miniskirt, pink fishnets and black combat boots. I was wearing black lipstick, white foundation, black eyeliner and red eye shadow. I was walking outside Hogwarts. It was snowing and raining so there was no sun, which I was very happy about. A lot of preps stared at me. I put up my middle finger at them. */

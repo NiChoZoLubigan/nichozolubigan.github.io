@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width">
+        <link rel="icon" href="icon_small.png" type="image/png" />
+        <title>test site two</title>
+    </head>
+    <body>
+        <form action="index.php" method="post" enctype="multipart/form-data">
+            
+            <label for="my username">username:</label>
+            <input type="text" id="username" placeholder="NiChoZo" minlength="6" maxlength="15" required> <br>
+            
+            <label for="password">password:</label>
+            <input type="password" id="password"> <br>
+            
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="saintidunn@gmail.com"> <br>
+            
+            <label for="bday">birthdate:</label>
+            <input type="date" id="bday"> <br>
+            
+            <label for="quantity">quantity:</label>
+            <input type="number" id="quantity" min="0" max="99" value="1"> <br>
+            
+            <label for="no1.">no1.</label>
+            <input type="radio" id="no1." value="no1." name="title">
+            <label for="no2.">no2.</label>
+            <input type="radio" id="no2." value="no2." name="title">
+            <label for="no3.">no3.</label>
+            <input type="radio" id="no3." value="no3." name="title"> <br>
+            
+            <label for="options">options:</label>
+            <select>
+                <option value="one">one</option>
+                <option value="two">two</option>
+                <option value="three">three</option>
+            </select> <br>
+            
+            <label for="check">check: </label>
+            <input type="checkbox" id="check"> <br>
+            
+            <label for="comment">comment:</label>
+            <textarea id="comment" rows="8" cols="40"></textarea> <br>
+            
+            <label for="file">file</label>
+            <input type="file" id="file" accept="image/png, image/jpeg, image/webp"> <br>
+            
+            <input type="reset"> <br>
+            <input type="submit">
+            
+        </form>
+    </body>
+</html>
